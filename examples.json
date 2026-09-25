@@ -1,0 +1,82 @@
+[
+  {
+    "label": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "score": 0,
+      "level": "low"
+    },
+    "originalInput": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+    "input": {
+      "vef1": 65,
+      "dist": 350,
+      "mmrc": "2",
+      "imc": 21
+    },
+    "expected": {
+      "score": 2,
+      "level": "low"
+    },
+    "originalInput": {
+      "vef1": 65,
+      "dist": 350,
+      "mmrc": "2",
+      "imc": 21
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+    "input": {
+      "vef1": 45,
+      "dist": 300,
+      "mmrc": "2",
+      "imc": 22
+    },
+    "expected": {
+      "score": 4,
+      "level": "mid"
+    },
+    "originalInput": {
+      "vef1": 45,
+      "dist": 300,
+      "mmrc": "2",
+      "imc": 22
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+    "input": {
+      "vef1": 30,
+      "dist": 140,
+      "mmrc": "4",
+      "imc": 20
+    },
+    "expected": {
+      "score": 10,
+      "level": "high"
+    },
+    "originalInput": {
+      "vef1": 30,
+      "dist": 140,
+      "mmrc": "4",
+      "imc": 20
+    },
+    "expandedZeroOptions": []
+  }
+]
