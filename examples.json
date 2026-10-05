@@ -1,6 +1,15 @@
 [
   {
-    "label": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+    "id": "indice-bode",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+    "originalInput": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
     "input": {
       "vef1": 70,
       "dist": 400,
@@ -11,16 +20,37 @@
       "score": 0,
       "level": "low"
     },
-    "originalInput": {
-      "vef1": 70,
-      "dist": 400,
-      "mmrc": "1",
-      "imc": 25
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 10"
+      ],
+      "label": "Índice BODE",
+      "raw": {
+        "score": 0,
+        "q": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+    "id": "indice-bode",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+    "originalInput": {
+      "vef1": 65,
+      "dist": 350,
+      "mmrc": "2",
+      "imc": 21
+    },
     "input": {
       "vef1": 65,
       "dist": 350,
@@ -31,16 +61,37 @@
       "score": 2,
       "level": "low"
     },
-    "originalInput": {
-      "vef1": 65,
-      "dist": 350,
-      "mmrc": "2",
-      "imc": 21
+    "recordedResult": {
+      "main": [
+        "2",
+        "de 10"
+      ],
+      "label": "Índice BODE",
+      "raw": {
+        "score": 2,
+        "q": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+    "id": "indice-bode",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+    "originalInput": {
+      "vef1": 45,
+      "dist": 300,
+      "mmrc": "2",
+      "imc": 22
+    },
     "input": {
       "vef1": 45,
       "dist": 300,
@@ -51,16 +102,37 @@
       "score": 4,
       "level": "mid"
     },
-    "originalInput": {
-      "vef1": 45,
-      "dist": 300,
-      "mmrc": "2",
-      "imc": 22
+    "recordedResult": {
+      "main": [
+        "4",
+        "de 10"
+      ],
+      "label": "Índice BODE",
+      "raw": {
+        "score": 4,
+        "q": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+    "id": "indice-bode",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+    "originalInput": {
+      "vef1": 30,
+      "dist": 140,
+      "mmrc": "4",
+      "imc": 20
+    },
     "input": {
       "vef1": 30,
       "dist": 140,
@@ -71,12 +143,24 @@
       "score": 10,
       "level": "high"
     },
-    "originalInput": {
-      "vef1": 30,
-      "dist": 140,
-      "mmrc": "4",
-      "imc": 20
+    "recordedResult": {
+      "main": [
+        "10",
+        "de 10"
+      ],
+      "label": "Índice BODE",
+      "raw": {
+        "score": 10,
+        "q": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

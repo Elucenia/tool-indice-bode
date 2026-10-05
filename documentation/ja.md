@@ -1,0 +1,84 @@
+<!-- ELUCENIA technical documentation · indice-bode · ja · no clinical/professional/rights approval -->
+
+# BODE指数
+
+[条件・出典・許諾](https://elucenia.org/ja/tools/indice-bode)
+
+## 使い方
+
+ポータルでツールを使用するか、ローカルHTTPサーバー経由でindex.htmlを開いてください。言語を選択し、項目を入力して計算してください。
+
+## 入力項目と単位
+
+### 気管支拡張薬後のFEV₁
+
+`vef1`
+
+%予測値 · 範囲: 5–150
+
+### 6分間歩行試験の距離
+
+`dist`
+
+m · 範囲: 0–1000
+
+### 呼吸困難（mMRCスケール）
+
+`mmrc`
+
+- `0` — 0：激しい運動時のみ
+- `1` — 1：速歩または坂を上るとき
+- `2` — 2：同年齢の人より遅く歩く，または平地歩行で立ち止まる
+- `3` — 3：平地で~100 mまたは数分歩くと立ち止まる
+- `4` — 4：外出しない，または着替えで息切れする
+
+### 体格指数（BMI）
+
+`imc`
+
+kg/m² · 範囲: 10–70
+
+## 方法の版
+
+BODE/Celli 2004：BMI/FEV₁/mMRC/6MWD、計0–10；原版、更新版BODEではない
+
+## 記載された計算式
+
+O（FEV₁予測値%）： ≥ 65 = 0; 50–64 = 1; 36–49 = 2; ≤ 35 = 3.
+E（6分間歩行）： ≥ 350 m = 0; 250–349 = 1; 150–249 = 2; ≤ 149 = 3.
+D (mMRC): 0–1 = 0; 2 = 1; 3 = 2; 4 = 3.
+B（BMI）： \> 21 = 0; ≤ 21 = 1.
+
+## 限界・対象集団
+
+原BODEは、六分間歩行を含む呼吸系および全身の測定を使い、慢性閉塞性肺疾患（COPD）の予後について開発されました。COPDを診断するものではなく、期間ごとの個人の確率を自動的に示すものでもありません。検査条件、項目の定義、適格性は版に対応する必要があります。
+
+## 参考文献
+
+- [Celli BR et al. The body-mass index, airflow obstruction, dyspnea, and exercise capacity index in chronic obstructive pulmonary disease. N Engl J Med, 2004.](https://doi.org/10.1056/NEJMoa021322)
+
+## 技術テストの再現
+
+このリポジトリのルートディレクトリでnode test.cjsを実行すると、記録された合成ケースを再実行できます。元の入力、期待結果、許容誤差は保持されています。技術テストは臨床的検証を意味しません。
+
+```sh
+node test.cjs
+```
+
+tool.jsonには出典、版、確認範囲が記録されています。examples.jsonには合成入力と期待結果が保持され、results.jsonには実際に得られた結果が記録されています。
+
+[記録・参考文献](../tool.json) · [JavaScriptコード](../calculator.js) · [参照ケース](../examples.json) · [results.json](../results.json)
+
+## 確認状況と使用条件
+
+独立した臨床レビューは実施されていません。
+
+このインターフェースは独自に作成した翻訳であり、公式版や認証済みの版ではありません。独立した臨床レビュー、専門家による言語レビュー、評価尺度等の権利許諾の確認は実施されていません。
+
+式または分類の結果です。解釈、対応、適用可能性は専門家による評価と選択した出典に依存します。
+
+## ライセンスと帰属表示
+
+Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
+
+ELUCENIA · Felipe Guedes · Copyright © 2026

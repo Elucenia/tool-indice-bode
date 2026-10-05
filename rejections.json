@@ -1,0 +1,496 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field vef1",
+    "input": {
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field vef1",
+    "input": {
+      "vef1": "",
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" vef1",
+    "input": {
+      "vef1": "NaN",
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" vef1",
+    "input": {
+      "vef1": "Infinity",
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" vef1",
+    "input": {
+      "vef1": "1e309",
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" vef1",
+    "input": {
+      "vef1": "invalid",
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} vef1",
+    "input": {
+      "vef1": {},
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true vef1",
+    "input": {
+      "vef1": true,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum vef1",
+    "input": {
+      "vef1": 4,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum vef1",
+    "input": {
+      "vef1": 165,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "vef1"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field dist",
+    "input": {
+      "vef1": 70,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field dist",
+    "input": {
+      "vef1": 70,
+      "dist": "",
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" dist",
+    "input": {
+      "vef1": 70,
+      "dist": "NaN",
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" dist",
+    "input": {
+      "vef1": 70,
+      "dist": "Infinity",
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" dist",
+    "input": {
+      "vef1": 70,
+      "dist": "1e309",
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" dist",
+    "input": {
+      "vef1": 70,
+      "dist": "invalid",
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} dist",
+    "input": {
+      "vef1": 70,
+      "dist": {},
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true dist",
+    "input": {
+      "vef1": 70,
+      "dist": true,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum dist",
+    "input": {
+      "vef1": 70,
+      "dist": -1,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum dist",
+    "input": {
+      "vef1": 70,
+      "dist": 1100,
+      "mmrc": "1",
+      "imc": 25
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "dist"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field mmrc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "mmrc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field mmrc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "",
+      "imc": 25
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "mmrc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option mmrc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "__ELUCENIA_INVALID_OPTION__",
+      "imc": 25
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "mmrc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 9
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum imc",
+    "input": {
+      "vef1": 70,
+      "dist": 400,
+      "mmrc": "1",
+      "imc": 77
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "imc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
