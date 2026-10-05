@@ -1,0 +1,857 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "indice-bode",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/indice-bode/calculator.js",
+    "sha256": "c8f996e6a1bba291d92fa5fc7e0a00735db531927de009ecd2b41bf44bcafd10",
+    "bytes": 5258
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "indice-bode",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+      "originalInput": {
+        "vef1": 70,
+        "dist": 400,
+        "mmrc": "1",
+        "imc": 25
+      },
+      "input": {
+        "vef1": 70,
+        "dist": 400,
+        "mmrc": "1",
+        "imc": 25
+      },
+      "amendments": [],
+      "expected": {
+        "score": 0,
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "0",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 0,
+          "q": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "vef1": 70,
+            "dist": 400,
+            "mmrc": "1",
+            "imc": 25
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+          "startedAt": "2026-10-05T17:38:38.619Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-bode",
+              "main": [
+                "0",
+                "de 10"
+              ],
+              "label": "Índice BODE",
+              "raw": {
+                "score": 0,
+                "q": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "e84b1ee322aa5aa0bb5fba14cac77e3ae121764c50414b1daa44636e76927ae8",
+          "bytes": 136,
+          "elapsedMs": 5.996899999998277
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "startedAt": "2026-10-05T17:38:38.619Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-bode",
+            "main": [
+              "0",
+              "de 10"
+            ],
+            "label": "Índice BODE",
+            "raw": {
+              "score": 0,
+              "q": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "e84b1ee322aa5aa0bb5fba14cac77e3ae121764c50414b1daa44636e76927ae8",
+        "bytes": 136,
+        "elapsedMs": 5.996899999998277
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.q",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "0",
+            "obtained": "0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 10",
+            "obtained": "de 10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-bode",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+      "originalInput": {
+        "vef1": 65,
+        "dist": 350,
+        "mmrc": "2",
+        "imc": 21
+      },
+      "input": {
+        "vef1": 65,
+        "dist": 350,
+        "mmrc": "2",
+        "imc": 21
+      },
+      "amendments": [],
+      "expected": {
+        "score": 2,
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "2",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 2,
+          "q": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "vef1": 65,
+            "dist": 350,
+            "mmrc": "2",
+            "imc": 21
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+          "startedAt": "2026-10-05T17:38:38.931Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-bode",
+              "main": [
+                "2",
+                "de 10"
+              ],
+              "label": "Índice BODE",
+              "raw": {
+                "score": 2,
+                "q": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "90757f45e67022887b841d9ece45299c2ce538d76aed0473dcd71df00ca223e2",
+          "bytes": 136,
+          "elapsedMs": 4.944000000017695
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "startedAt": "2026-10-05T17:38:38.931Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-bode",
+            "main": [
+              "2",
+              "de 10"
+            ],
+            "label": "Índice BODE",
+            "raw": {
+              "score": 2,
+              "q": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "90757f45e67022887b841d9ece45299c2ce538d76aed0473dcd71df00ca223e2",
+        "bytes": 136,
+        "elapsedMs": 4.944000000017695
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.q",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "2",
+            "obtained": "2",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 10",
+            "obtained": "de 10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-bode",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+      "originalInput": {
+        "vef1": 45,
+        "dist": 300,
+        "mmrc": "2",
+        "imc": 22
+      },
+      "input": {
+        "vef1": 45,
+        "dist": 300,
+        "mmrc": "2",
+        "imc": 22
+      },
+      "amendments": [],
+      "expected": {
+        "score": 4,
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "4",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 4,
+          "q": 2
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "vef1": 45,
+            "dist": 300,
+            "mmrc": "2",
+            "imc": 22
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+          "startedAt": "2026-10-05T17:38:39.241Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-bode",
+              "main": [
+                "4",
+                "de 10"
+              ],
+              "label": "Índice BODE",
+              "raw": {
+                "score": 4,
+                "q": 2
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "f62a7f50ee3f5f329ab5485da3f082d955ba4a5ad9af94c821bdef2d6d3012e6",
+          "bytes": 136,
+          "elapsedMs": 7.078799999988405
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "startedAt": "2026-10-05T17:38:39.241Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-bode",
+            "main": [
+              "4",
+              "de 10"
+            ],
+            "label": "Índice BODE",
+            "raw": {
+              "score": 4,
+              "q": 2
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "f62a7f50ee3f5f329ab5485da3f082d955ba4a5ad9af94c821bdef2d6d3012e6",
+        "bytes": 136,
+        "elapsedMs": 7.078799999988405
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.q",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "4",
+            "obtained": "4",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 10",
+            "obtained": "de 10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "indice-bode",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+      "originalInput": {
+        "vef1": 30,
+        "dist": 140,
+        "mmrc": "4",
+        "imc": 20
+      },
+      "input": {
+        "vef1": 30,
+        "dist": 140,
+        "mmrc": "4",
+        "imc": 20
+      },
+      "amendments": [],
+      "expected": {
+        "score": 10,
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "10",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 10,
+          "q": 4
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "vef1": 30,
+            "dist": 140,
+            "mmrc": "4",
+            "imc": 20
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+          "startedAt": "2026-10-05T17:38:39.541Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "indice-bode",
+              "main": [
+                "10",
+                "de 10"
+              ],
+              "label": "Índice BODE",
+              "raw": {
+                "score": 10,
+                "q": 4
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "06d62b596302e579faa2447aebe425eb64debb179c28380ff1eeeea43b2d3cc3",
+          "bytes": 138,
+          "elapsedMs": 7.127399999997579
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/indice-bode/calculate",
+        "startedAt": "2026-10-05T17:38:39.541Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "indice-bode",
+            "main": [
+              "10",
+              "de 10"
+            ],
+            "label": "Índice BODE",
+            "raw": {
+              "score": 10,
+              "q": 4
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "06d62b596302e579faa2447aebe425eb64debb179c28380ff1eeeea43b2d3cc3",
+        "bytes": 138,
+        "elapsedMs": 7.127399999997579
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.q",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "10",
+            "obtained": "10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 10",
+            "obtained": "de 10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
