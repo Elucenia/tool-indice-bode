@@ -82,3 +82,55 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Quartile 1 (0 à 2 points) : risque de décès plus faible
+
+| Détails du résultat | |
+| --- | --- |
+| B : IMC | 0 point(s) |
+| O : VEMS | 0 point(s) |
+| D : dyspnée (mMRC) | 0 point(s) |
+| E : marche de 6 min | 0 point(s) |
+
+
+### 2
+
+Quartile 1 (0 à 2 points) : risque de décès plus faible
+
+| Détails du résultat | |
+| --- | --- |
+| B : IMC | 1 point(s) |
+| O : VEMS | 0 point(s) |
+| D : dyspnée (mMRC) | 1 point(s) |
+| E : marche de 6 min | 0 point(s) |
+
+
+### 3
+
+Quartile 2 (3 à 4 points) : risque de décès modéré
+
+| Détails du résultat | |
+| --- | --- |
+| B : IMC | 0 point(s) |
+| O : VEMS | 2 point(s) |
+| D : dyspnée (mMRC) | 1 point(s) |
+| E : marche de 6 min | 1 point(s) |
+
+
+### 4
+
+Quartile 4 (7 à 10 points) : risque de décès plus élevé
+
+| Détails du résultat | |
+| --- | --- |
+| B : IMC | 1 point(s) |
+| O : VEMS | 3 point(s) |
+| D : dyspnée (mMRC) | 3 point(s) |
+| E : marche de 6 min | 3 point(s) |
+

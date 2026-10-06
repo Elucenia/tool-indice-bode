@@ -82,3 +82,55 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Quartil 1 (0 bis 2 Punkte): geringeres Sterberisiko
+
+| Ergebnisdetails | |
+| --- | --- |
+| B: BMI | 0 Punkt(e) |
+| O: FEV₁ | 0 Punkt(e) |
+| D: Dyspnoe (mMRC) | 0 Punkt(e) |
+| E: 6-min-Gehtest | 0 Punkt(e) |
+
+
+### 2
+
+Quartil 1 (0 bis 2 Punkte): geringeres Sterberisiko
+
+| Ergebnisdetails | |
+| --- | --- |
+| B: BMI | 1 Punkt(e) |
+| O: FEV₁ | 0 Punkt(e) |
+| D: Dyspnoe (mMRC) | 1 Punkt(e) |
+| E: 6-min-Gehtest | 0 Punkt(e) |
+
+
+### 3
+
+Quartil 2 (3 bis 4 Punkte): moderates Sterberisiko
+
+| Ergebnisdetails | |
+| --- | --- |
+| B: BMI | 0 Punkt(e) |
+| O: FEV₁ | 2 Punkt(e) |
+| D: Dyspnoe (mMRC) | 1 Punkt(e) |
+| E: 6-min-Gehtest | 1 Punkt(e) |
+
+
+### 4
+
+Quartil 4 (7 bis 10 Punkte): höheres Sterberisiko
+
+| Ergebnisdetails | |
+| --- | --- |
+| B: BMI | 1 Punkt(e) |
+| O: FEV₁ | 3 Punkt(e) |
+| D: Dyspnoe (mMRC) | 3 Punkt(e) |
+| E: 6-min-Gehtest | 3 Punkt(e) |
+

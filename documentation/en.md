@@ -82,3 +82,55 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Quartile 1 (0 to 2 points): lower risk of death
+
+| Result details | |
+| --- | --- |
+| B: BMI | 0 point(s) |
+| O: FEV₁ | 0 point(s) |
+| D: dyspnea (mMRC) | 0 point(s) |
+| E: 6 min walk | 0 point(s) |
+
+
+### 2
+
+Quartile 1 (0 to 2 points): lower risk of death
+
+| Result details | |
+| --- | --- |
+| B: BMI | 1 point(s) |
+| O: FEV₁ | 0 point(s) |
+| D: dyspnea (mMRC) | 1 point(s) |
+| E: 6 min walk | 0 point(s) |
+
+
+### 3
+
+Quartile 2 (3 to 4 points): moderate risk of death
+
+| Result details | |
+| --- | --- |
+| B: BMI | 0 point(s) |
+| O: FEV₁ | 2 point(s) |
+| D: dyspnea (mMRC) | 1 point(s) |
+| E: 6 min walk | 1 point(s) |
+
+
+### 4
+
+Quartile 4 (7 to 10 points): higher risk of death
+
+| Result details | |
+| --- | --- |
+| B: BMI | 1 point(s) |
+| O: FEV₁ | 3 point(s) |
+| D: dyspnea (mMRC) | 3 point(s) |
+| E: 6 min walk | 3 point(s) |
+

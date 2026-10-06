@@ -1,0 +1,300 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "indice-bode",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "93c7ae09331c41ebcd1e29f1e25f5a8ad75899fb",
+    "oldEngineSha256": "c8f996e6a1bba291d92fa5fc7e0a00735db531927de009ecd2b41bf44bcafd10",
+    "currentEngineSha256": "1493687be04e6a4f40150453d0a14ef30ae7c8c593c3d6223be713eddef21bfe"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+      "input": {
+        "vef1": 70,
+        "dist": 400,
+        "mmrc": "1",
+        "imc": 25
+      },
+      "publicOutput": {
+        "id": "indice-bode",
+        "main": [
+          "0",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 0,
+          "q": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "level": "low",
+        "verdict": "Quartil 1 (0 a 2 pontos): menor risco de morte",
+        "rows": [
+          [
+            "B: IMC",
+            "0 ponto(s)"
+          ],
+          [
+            "O: VEF₁",
+            "0 ponto(s)"
+          ],
+          [
+            "D: dispneia (mMRC)",
+            "0 ponto(s)"
+          ],
+          [
+            "E: caminhada de 6 min",
+            "0 ponto(s)"
+          ]
+        ],
+        "raw": {
+          "score": 0,
+          "q": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+      "input": {
+        "vef1": 65,
+        "dist": 350,
+        "mmrc": "2",
+        "imc": 21
+      },
+      "publicOutput": {
+        "id": "indice-bode",
+        "main": [
+          "2",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 2,
+          "q": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 2,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "level": "low",
+        "verdict": "Quartil 1 (0 a 2 pontos): menor risco de morte",
+        "rows": [
+          [
+            "B: IMC",
+            "1 ponto(s)"
+          ],
+          [
+            "O: VEF₁",
+            "0 ponto(s)"
+          ],
+          [
+            "D: dispneia (mMRC)",
+            "1 ponto(s)"
+          ],
+          [
+            "E: caminhada de 6 min",
+            "0 ponto(s)"
+          ]
+        ],
+        "raw": {
+          "score": 2,
+          "q": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+      "input": {
+        "vef1": 45,
+        "dist": 300,
+        "mmrc": "2",
+        "imc": 22
+      },
+      "publicOutput": {
+        "id": "indice-bode",
+        "main": [
+          "4",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 4,
+          "q": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 4,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "level": "mid",
+        "verdict": "Quartil 2 (3 a 4 pontos): moderado risco de morte",
+        "rows": [
+          [
+            "B: IMC",
+            "0 ponto(s)"
+          ],
+          [
+            "O: VEF₁",
+            "2 ponto(s)"
+          ],
+          [
+            "D: dispneia (mMRC)",
+            "1 ponto(s)"
+          ],
+          [
+            "E: caminhada de 6 min",
+            "1 ponto(s)"
+          ]
+        ],
+        "raw": {
+          "score": 4,
+          "q": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+      "input": {
+        "vef1": 30,
+        "dist": 140,
+        "mmrc": "4",
+        "imc": 20
+      },
+      "publicOutput": {
+        "id": "indice-bode",
+        "main": [
+          "10",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "raw": {
+          "score": 10,
+          "q": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 10,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "de 10"
+        ],
+        "label": "Índice BODE",
+        "level": "high",
+        "verdict": "Quartil 4 (7 a 10 pontos): maior risco de morte",
+        "rows": [
+          [
+            "B: IMC",
+            "1 ponto(s)"
+          ],
+          [
+            "O: VEF₁",
+            "3 ponto(s)"
+          ],
+          [
+            "D: dispneia (mMRC)",
+            "3 ponto(s)"
+          ],
+          [
+            "E: caminhada de 6 min",
+            "3 ponto(s)"
+          ]
+        ],
+        "raw": {
+          "score": 10,
+          "q": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

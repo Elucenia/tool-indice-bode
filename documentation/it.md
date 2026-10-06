@@ -82,3 +82,55 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Quartile 1 (0 a 2 punti): minore rischio di morte
+
+| Dettagli del risultato | |
+| --- | --- |
+| B: IMC | 0 punto(i) |
+| O: FEV₁ | 0 punto(i) |
+| D: dispnea (mMRC) | 0 punto(i) |
+| E: camminata di 6 min | 0 punto(i) |
+
+
+### 2
+
+Quartile 1 (0 a 2 punti): minore rischio di morte
+
+| Dettagli del risultato | |
+| --- | --- |
+| B: IMC | 1 punto(i) |
+| O: FEV₁ | 0 punto(i) |
+| D: dispnea (mMRC) | 1 punto(i) |
+| E: camminata di 6 min | 0 punto(i) |
+
+
+### 3
+
+Quartile 2 (3 a 4 punti): rischio moderato di morte
+
+| Dettagli del risultato | |
+| --- | --- |
+| B: IMC | 0 punto(i) |
+| O: FEV₁ | 2 punto(i) |
+| D: dispnea (mMRC) | 1 punto(i) |
+| E: camminata di 6 min | 1 punto(i) |
+
+
+### 4
+
+Quartile 4 (7 a 10 punti): maggior rischio di morte
+
+| Dettagli del risultato | |
+| --- | --- |
+| B: IMC | 1 punto(i) |
+| O: FEV₁ | 3 punto(i) |
+| D: dispnea (mMRC) | 3 punto(i) |
+| E: camminata di 6 min | 3 punto(i) |
+

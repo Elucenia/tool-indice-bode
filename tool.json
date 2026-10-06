@@ -277,7 +277,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "BODE/Celli 2004:IMC/VEF 1/m MRC/6 MWD, total 0–10; original, semupdated BODE",
-    "implementationVersion": "indice-bode@native-2026-10-03+c8f996e6a1bb",
+    "implementationVersion": "indice-bode@native-2026-10-05+1493687be04e",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/14999112/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -508,7 +508,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "c8f996e6a1bba291d92fa5fc7e0a00735db531927de009ecd2b41bf44bcafd10"
+      "implementationHash": "1493687be04e6a4f40150453d0a14ef30ae7c8c593c3d6223be713eddef21bfe",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "indice-bode@native-2026-10-03+c8f996e6a1bb",
+          "previousImplementationHash": "c8f996e6a1bba291d92fa5fc7e0a00735db531927de009ecd2b41bf44bcafd10",
+          "implementationHash": "1493687be04e6a4f40150453d0a14ef30ae7c8c593c3d6223be713eddef21bfe",
+          "scientificBodySha256": "618d31050546ab77612b55757d96d1b6e6a7033855c55f7c07e951a2caf00c35",
+          "metadataContractHash": "7437b34c5b3173679d0df459c1dd36a23d6ffe1b0a66a5a21105c8a7a2759180",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O BODE original foi desenvolvido para prognóstico em DPOC utilizando medidas respiratórias e sistêmicas, inclusive caminhada de seis minutos. Não diagnostica DPOC nem fornece automaticamente probabilidade individual por prazo; condições de teste, definições dos itens e elegibilidade devem corresponder à versão.",
     "sourceLimitEvidence": {
@@ -527,20 +555,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/indice-bode/calculator.js",
-    "bytes": 5258,
-    "sha256": "c8f996e6a1bba291d92fa5fc7e0a00735db531927de009ecd2b41bf44bcafd10"
+    "bytes": 5463,
+    "sha256": "1493687be04e6a4f40150453d0a14ef30ae7c8c593c3d6223be713eddef21bfe"
   },
-  "sourceToolSha256": "1ec39bd47d799b1e360ddfaeb0e92fc4774ca673885bf1d8ed4f4903c0048370",
+  "sourceToolSha256": "8c593bbf5a67a2413f33c3d9bd2e0e7e9455d52671c55ee6d562c07bdbf78e06",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "1acba6a9779fb829e121c0e91e06195ff8c69efda6614f55b7769b0d33d02b19",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "1acba6a9779fb829e121c0e91e06195ff8c69efda6614f55b7769b0d33d02b19",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

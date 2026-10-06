@@ -1,0 +1,3167 @@
+{
+  "id": "indice-bode",
+  "implementationVersion": "indice-bode@native-2026-10-05+1493687be04e",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispneia (mMRC)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminhada de 6 min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 1 (0 a 2 pontos): menor risco de morte",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispneia (mMRC)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminhada de 6 min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 1 (0 a 2 pontos): menor risco de morte",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispneia (mMRC)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminhada de 6 min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 2 (3 a 4 pontos): moderado risco de morte",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispneia (mMRC)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminhada de 6 min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3 ponto(s)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 4 (7 a 10 pontos): maior risco de morte",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "en",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "en",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dyspnea (mMRC)",
+                "locale": "en",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 min walk",
+                "locale": "en",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 to 2 points): lower risk of death",
+            "locale": "en",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "en",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "en",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dyspnea (mMRC)",
+                "locale": "en",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 min walk",
+                "locale": "en",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 to 2 points): lower risk of death",
+            "locale": "en",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "en",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "en",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dyspnea (mMRC)",
+                "locale": "en",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 min walk",
+                "locale": "en",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 2 (3 to 4 points): moderate risk of death",
+            "locale": "en",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "en",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "en",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dyspnea (mMRC)",
+                "locale": "en",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 min walk",
+                "locale": "en",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "en",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 4 (7 to 10 points): higher risk of death",
+            "locale": "en",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "es",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "es",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: disnea (mMRC)",
+                "locale": "es",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminata de 6 min",
+                "locale": "es",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuartil 1 (0 a 2 puntos): menor riesgo de muerte",
+            "locale": "es",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "es",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "es",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: disnea (mMRC)",
+                "locale": "es",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminata de 6 min",
+                "locale": "es",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuartil 1 (0 a 2 puntos): menor riesgo de muerte",
+            "locale": "es",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "es",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "es",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: disnea (mMRC)",
+                "locale": "es",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminata de 6 min",
+                "locale": "es",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuartil 2 (3 a 4 puntos): riesgo moderado de muerte",
+            "locale": "es",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "es",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: VEF₁",
+                "locale": "es",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: disnea (mMRC)",
+                "locale": "es",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: caminata de 6 min",
+                "locale": "es",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 punto(s)",
+                "locale": "es",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuartil 4 (7 a 10 puntos): mayor riesgo de muerte",
+            "locale": "es",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B : IMC",
+                "locale": "fr",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O : VEMS",
+                "locale": "fr",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D : dyspnée (mMRC)",
+                "locale": "fr",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E : marche de 6 min",
+                "locale": "fr",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 à 2 points) : risque de décès plus faible",
+            "locale": "fr",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B : IMC",
+                "locale": "fr",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O : VEMS",
+                "locale": "fr",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D : dyspnée (mMRC)",
+                "locale": "fr",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E : marche de 6 min",
+                "locale": "fr",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 à 2 points) : risque de décès plus faible",
+            "locale": "fr",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B : IMC",
+                "locale": "fr",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O : VEMS",
+                "locale": "fr",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D : dyspnée (mMRC)",
+                "locale": "fr",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E : marche de 6 min",
+                "locale": "fr",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 2 (3 à 4 points) : risque de décès modéré",
+            "locale": "fr",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B : IMC",
+                "locale": "fr",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O : VEMS",
+                "locale": "fr",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D : dyspnée (mMRC)",
+                "locale": "fr",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E : marche de 6 min",
+                "locale": "fr",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 point(s)",
+                "locale": "fr",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 4 (7 à 10 points) : risque de décès plus élevé",
+            "locale": "fr",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "de",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "de",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: Dyspnoe (mMRC)",
+                "locale": "de",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6-min-Gehtest",
+                "locale": "de",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 1 (0 bis 2 Punkte): geringeres Sterberisiko",
+            "locale": "de",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "de",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "de",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: Dyspnoe (mMRC)",
+                "locale": "de",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6-min-Gehtest",
+                "locale": "de",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 1 (0 bis 2 Punkte): geringeres Sterberisiko",
+            "locale": "de",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "de",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "de",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: Dyspnoe (mMRC)",
+                "locale": "de",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6-min-Gehtest",
+                "locale": "de",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 2 (3 bis 4 Punkte): moderates Sterberisiko",
+            "locale": "de",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "de",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "de",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: Dyspnoe (mMRC)",
+                "locale": "de",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6-min-Gehtest",
+                "locale": "de",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 Punkt(e)",
+                "locale": "de",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartil 4 (7 bis 10 Punkte): höheres Sterberisiko",
+            "locale": "de",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "it",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "it",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispnea (mMRC)",
+                "locale": "it",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: camminata di 6 min",
+                "locale": "it",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 a 2 punti): minore rischio di morte",
+            "locale": "it",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "it",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "it",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispnea (mMRC)",
+                "locale": "it",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: camminata di 6 min",
+                "locale": "it",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 1 (0 a 2 punti): minore rischio di morte",
+            "locale": "it",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "it",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "it",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispnea (mMRC)",
+                "locale": "it",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: camminata di 6 min",
+                "locale": "it",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 2 (3 a 4 punti): rischio moderato di morte",
+            "locale": "it",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: IMC",
+                "locale": "it",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "it",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: dispnea (mMRC)",
+                "locale": "it",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: camminata di 6 min",
+                "locale": "it",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 punto(i)",
+                "locale": "it",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quartile 4 (7 a 10 punti): maggior rischio di morte",
+            "locale": "it",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: مؤشر كتلة الجسم",
+                "locale": "ar",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ar",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: ضيق النفس (mMRC)",
+                "locale": "ar",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: المشي لمدة 6 دقائق",
+                "locale": "ar",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الربع ١ (0 إلى 2 نقطة): خطر وفاة أقل",
+            "locale": "ar",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: مؤشر كتلة الجسم",
+                "locale": "ar",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "١ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ar",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: ضيق النفس (mMRC)",
+                "locale": "ar",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "١ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: المشي لمدة 6 دقائق",
+                "locale": "ar",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الربع ١ (0 إلى 2 نقطة): خطر وفاة أقل",
+            "locale": "ar",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: مؤشر كتلة الجسم",
+                "locale": "ar",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "٠ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ar",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "٢ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: ضيق النفس (mMRC)",
+                "locale": "ar",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "١ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: المشي لمدة 6 دقائق",
+                "locale": "ar",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "١ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الربع ٢ (3 إلى 4 نقاط): خطر وفاة متوسط",
+            "locale": "ar",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: مؤشر كتلة الجسم",
+                "locale": "ar",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "١ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ar",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "٣ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: ضيق النفس (mMRC)",
+                "locale": "ar",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "٣ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: المشي لمدة 6 دقائق",
+                "locale": "ar",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "٣ نقطة/نقاط",
+                "locale": "ar",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الربع ٤ (7 إلى 10 نقاط): خطر وفاة أعلى",
+            "locale": "ar",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B：BMI",
+                "locale": "zh",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O：FEV₁",
+                "locale": "zh",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D：呼吸困难（mMRC）",
+                "locale": "zh",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E：6 分钟步行",
+                "locale": "zh",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 1（0 至 2 分）：较低死亡风险",
+            "locale": "zh",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B：BMI",
+                "locale": "zh",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O：FEV₁",
+                "locale": "zh",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D：呼吸困难（mMRC）",
+                "locale": "zh",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E：6 分钟步行",
+                "locale": "zh",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 1（0 至 2 分）：较低死亡风险",
+            "locale": "zh",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B：BMI",
+                "locale": "zh",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O：FEV₁",
+                "locale": "zh",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D：呼吸困难（mMRC）",
+                "locale": "zh",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E：6 分钟步行",
+                "locale": "zh",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 2（3 至 4 分）：中度死亡风险",
+            "locale": "zh",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B：BMI",
+                "locale": "zh",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O：FEV₁",
+                "locale": "zh",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D：呼吸困难（mMRC）",
+                "locale": "zh",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E：6 分钟步行",
+                "locale": "zh",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 分",
+                "locale": "zh",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 4（7 至 10 分）：较高死亡风险",
+            "locale": "zh",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "ja",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ja",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: 呼吸困難（mMRC）",
+                "locale": "ja",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6分間歩行",
+                "locale": "ja",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 1（0～2点）：死亡リスクが低い",
+            "locale": "ja",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "ja",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ja",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: 呼吸困難（mMRC）",
+                "locale": "ja",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6分間歩行",
+                "locale": "ja",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 1（0～2点）：死亡リスクが低い",
+            "locale": "ja",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "ja",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ja",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: 呼吸困難（mMRC）",
+                "locale": "ja",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6分間歩行",
+                "locale": "ja",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 2（3～4点）：死亡リスクが中等度",
+            "locale": "ja",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: BMI",
+                "locale": "ja",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "ja",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: 呼吸困難（mMRC）",
+                "locale": "ja",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6分間歩行",
+                "locale": "ja",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3点",
+                "locale": "ja",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "四分位 4（7～10点）：死亡リスクが高い",
+            "locale": "ja",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "VEF₁ 70%, 400 m, mMRC 1, IMC 25: 0 ponto",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: बीएमआई",
+                "locale": "hi",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "hi",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: श्वासकष्ट (mMRC)",
+                "locale": "hi",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 मिनट चलना",
+                "locale": "hi",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "चतुर्थक 1 (0 से 2 अंक): मृत्यु का कम जोखिम",
+            "locale": "hi",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limites: VEF₁ 65%, 350 m, mMRC 2, IMC 21: 0 + 0 + 1 + 1 = 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: बीएमआई",
+                "locale": "hi",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "hi",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: श्वासकष्ट (mMRC)",
+                "locale": "hi",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 मिनट चलना",
+                "locale": "hi",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "चतुर्थक 1 (0 से 2 अंक): मृत्यु का कम जोखिम",
+            "locale": "hi",
+            "template": "documented-authored-dca7b0386633bdde2deb",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "VEF₁ 45%, 300 m, mMRC 2, IMC 22: 2 + 1 + 1 + 0 = 4",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: बीएमआई",
+                "locale": "hi",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "0 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "hi",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "2 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  2
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: श्वासकष्ट (mMRC)",
+                "locale": "hi",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "1 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 मिनट चलना",
+                "locale": "hi",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "1 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "चतुर्थक 2 (3 से 4 अंक): मृत्यु का मध्यम जोखिम",
+            "locale": "hi",
+            "template": "documented-authored-72e49ad1844a2ffec68c",
+            "sourceNumbers": [
+              2
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "VEF₁ 30%, 140 m, mMRC 4, IMC 20: 10 pontos",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "B: बीएमआई",
+                "locale": "hi",
+                "template": "documented-authored-3cdb95170a6c502b0935"
+              },
+              "value": {
+                "text": "1 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "O: FEV₁",
+                "locale": "hi",
+                "template": "documented-authored-ee0d3f4e786b6ccf6247"
+              },
+              "value": {
+                "text": "3 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "D: श्वासकष्ट (mMRC)",
+                "locale": "hi",
+                "template": "documented-authored-e0248d62797be890fb14"
+              },
+              "value": {
+                "text": "3 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "E: 6 मिनट चलना",
+                "locale": "hi",
+                "template": "documented-authored-92a4ffd5a1e177927e42"
+              },
+              "value": {
+                "text": "3 अंक",
+                "locale": "hi",
+                "template": "documented-authored-474eaf0390bcd038726f",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "चतुर्थक 4 (7 से 10 अंक): मृत्यु का अधिक जोखिम",
+            "locale": "hi",
+            "template": "documented-authored-0531f17047adbe6f362c",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}
